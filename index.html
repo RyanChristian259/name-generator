@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Name Generator - By Ryan Christian Media</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+  <body>
+    <div id='wrapper'>
+      <h1>Name Generator</h1>
+      <h5>By Ryan Christian Media</h5>
+
+      <p>What kind of name <br>do you want to make?</p>
+      <form name = "nameDropDown">
+        <select id ="selectNameArray">
+          <option value ="pirate">Pirate</option>
+          <option value ="horse">Horse Names</option>
+          <option value ="superhero">Super Hero Names</option>
+        </select>
+      </form><br>
+     <!--  <form role="form">
+       <div class="form-group">
+        <label for="sel1">What kind of name <br>do you want to make?</label>
+         <select class="form-control" id="selectedNameArray">
+          <option>Pirate</option>
+          <option>Horse Names</option>
+      </select>
+      <br>
+      </div>
+    </form> -->
+
+      <!-- form for name input - get name from DOM -->
+      <form id="form">Input Name<br>
+        <input class="name" type="text" name="Select Name">
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <h2 class='yourNewName'></h2>
+
+
+      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/nameKeys.js"></script>
+      <script type="text/javascript" src="js/utility.js"></script>
+      <script type="text/javascript" src="js/dom.js"></script>
+    </div>
+  </body>
+
+</html>
