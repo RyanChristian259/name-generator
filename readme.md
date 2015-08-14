@@ -43,4 +43,4 @@ Easter Egg = screen opens up and shows a game when a predesignated key name is e
 
 Have a create your own list section?
 
-Credit to Sarah Turek as programmer assist.
+Credit to Sarah Turek as guest programmer
