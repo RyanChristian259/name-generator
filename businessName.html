@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Name Generator - By Ryan Christian Media</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Titillium+Web:400,700|Lobster' rel='stylesheet' type='text/css'>
+  </head>
+
+    <header>
+    <a href="index.html" class="logo">
+      <h1>Business Name Generator</h1>
+      <h2><img class='rcmLogo' src='assets/logos/RC_media_blk.png' alt="RC Media Logo" style="width:200px;height:27px"></h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="businessName.html">Business name generator</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<!-- key UzkS4xfw_K2mwozXLE5wGacsrNn1thi -->
+<!-- secret K2n1aDb3iMoo6HWf6MZa7v -->
+
+    <div class='wrapper'>
+      <div class='nameEntry'>
+        <p>What kind of name <br>do you want to make?</p>
+        <form name = "nameDropDown">
+          <select id ="selectNameArray">
+            <option value ="Pirate">Pirate Name</option>
+            <option value ="Horse">Horse Name</option>
+            <option value ="Superhero">Superhero Name</option>
+            <option value ="christmasElf">Christmas Elf Name</option>
+            <option value ="blues">Blues Name</option>
+            <option value ="hipster">Hipster Name</option>
+          </select>
+        </form><br>
+
+        <!-- form for name input - get name from DOM -->
+        <form id="form">Type Your Name Here<br>
+          <input class="name" type="text" name="Select Name">
+          <br><br>
+          <input type="submit" class='btn-primary' value="Submit">
+        </form>
+        <h1 class='yourNewName'></h1>
+      </div>
+      <div class="nameResults"></div>
+
+    <footer>
+        <a href="http://twitter.com/ryanciecalone"><img src="assets/logos/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/RyanChristianMedia?ref=hl"><img src="assets/logos/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <div
+          class="fb-like"
+          data-share="true"
+          data-width="450"
+          data-show-faces="true">
+        </div>
+      <p>&copy; 2015 Ryan Ciecalone</p>
+    </footer>
+
+
+
+      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/nameKeys.js"></script>
+      <script type="text/javascript" src="js/utility.js"></script>
+      <script type="text/javascript" src="js/dom.js"></script>
+    </div>
+  </body>
+
+</html>

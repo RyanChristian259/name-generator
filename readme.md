@@ -44,3 +44,40 @@ Easter Egg = screen opens up and shows a game when a predesignated key name is e
 Have a create your own list section?
 
 Credit to Sarah Turek as guest programmer
+
+Create randomizer for middle names?
+
+Male and female options?
+
+Pull top hit pic from google?
+
+Share on Facebook.
+
+Email to your friends
+
+
+
+********Revised function*********
+  //gets first letter from first name
+  //and first letter from last name
+  function getNameLetters(nameInput){
+    firstNameLetter = nameInput.trimLeft().split(' ')[0].slice(0, 1).toLowerCase();
+    lastNameLetter = nameInput.split(' ')[1].slice(0, 1).toLowerCase();
+
+// .replace(/^\s+|\s+$/gm,'');
+
+    console.log(firstNameLetter + ' firstNameLetter');
+    console.log(nameInput + ' nameInput');
+    console.log(lastNameLetter + ' lastNameLetter');
+    return firstNameLetter, lastNameLetter;
+  }
+
+  function matchFirstNameToKey(firstNameLetter, selectedKey){
+    firstName = selectedKey[firstNameLetter];
+    return firstName;
+  }
+
+  function matchLastNameToKey(lastNameLetter, selectedKey){
+    lastName = selectedKey[lastNameLetter];
+    return lastName;
+  }
