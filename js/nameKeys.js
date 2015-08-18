@@ -8,7 +8,7 @@ var PirateArrayLastName = {a:'Sparrow', b:'Of The West', c:'Patch', d:'Hornswagg
 
 var PirateArrayLastName2 = {a:'Barbossa', b:'McRoundbelly', c:'Hook', d:'McBlood', e:'WhaleHunter', f:'Clegg', g:'Skunkbeard', h:'Tompkins', i:'Harlock', j:'Zissou', k:'IronHook', l:'Mulligan', m:'Seadaddy', n:'Dutchman', o:'Fishhugger', p:'LeFwee', q:'Lynch', r:'PlankWalker', s:'swims-in-circles', t:'Bottom scratcher', u:'Wet Willie', v:'One eyed willie', w:'Jetsum', x:'McGrath', y:'Shark Whisperer', z:'Blue Water'};
 
-var PirateArrayLastName3 = {a:'Crookbeard', b:'Jack Crow', c:'DeLeon', d:'DeMillzy', e:'Feathersword', f:'Lafitte', g:'Silver', h:'Jones', i:'Beckett', j:'Gibbs', k:'Teague', l:'Gillette', m:'Essex', n:'DeBerry', o:'DeLussan', p:'Norrington', q:'Morgan', r:'Barrett', s:'Badblood', t:'DePistol', u:'Crunch', v:'The Barbarian', w:'Darkwater', x:'Karnage', y:'SteelSword', z:'Bloodhook'};
+var PirateArrayLastName3 = {a:'Crookbeard', b:'Jack Crow', c:'DeLeon', d:'DeMillzy', e:'Feathersword', f:'Lafitte', g:'Silver', h:'Jones', i:'Beckett', j:'Gibbs', k:'Ladyfingers', l:'Gillette', m:'Anchorbottom', n:'DeBerry', o:'DeLussan', p:'Norrington', q:'Morgan', r:'Barrett', s:'Badblood', t:'DePistol', u:'Crunch', v:'The Barbarian', w:'Darkwater', x:'Karnage', y:'SteelSword', z:'Bloodhook'};
 
 var HorseArrayFirstName = {a:'Aston', b:'Bearwood', c:'Castle Vale', d:'HayChomp', e:'Erdington', f:'Frankley', g:'Great Burr', h:'Handsworth', i:'Harborne', j:'Kings-Heath', k:'Kingstanding', l:'Ladywood', m:'Moseley', n:'Northfield', o:'Nechells', p:'Jampy', q:'Quincy', r:'Ruby', s:'Champ', t:'Tompkins', u:'Winny', v:'Woeley Castle', w:'Winston', x:'Xavier', y:'Yardley', z:'Witton'};
 
@@ -22,7 +22,7 @@ SuperheroArrayFirstName = {a:'The Amazing', b:'The Magnetic', c:'The Fire', d:'T
 
 SuperheroArrayFirstName2 = {a:'Dr.', b:'Captain', c:'Night', d:'The Magnificent', e:'Super', f:'The Amazing', g:'The Great', h:'The Violent', i:'The Flying', j:'The Shiny', k:'The Unexpected', l:'The Evil', m:'The Flimsy', n:'The Odorless', o:'The Majestic', p:'The Squinty', q:'The Flatulent', r:'The Painful', s:'The Fearless', t:'The Ugly', u:'The Pretty', v:'The Unsociable', w:'The Violent', x:'The Poisonus', y:'The Radioactive', z:'The Unlikely'};
 
-SuperheroArrayLastName = {a:'Thunderbolt', b:'Storm', c:'Dymano', d:'Octopus', e:'Falcon', f:'Munchkin', g:'Doctor', h:'Tornado', i:'Hurricane', j:'Blizzard', k:'Volcano', l:'McDagger', m:'Laser', n:'Meteor', o:'Rocket', p:'Thunder', q:'Lightning', r:'Avenger', s:'Destroyer', t:'Muffin', u:'Cookie', v:'Exterminator', w:'Assassin', x:'Marshmellow', y:'Sausage', z:'Wierdo'};
+SuperheroArrayLastName = {a:'Thunderbolt', b:'Storm', c:'Dymano', d:'Octopus', e:'Falcon', f:'Munchkin', g:'Doctor', h:'Tornado', i:'Hurricane', j:'Blizzard', k:'Volcano', l:'McDagger', m:'Sausage', n:'Meteor', o:'Rocket', p:'Thunder', q:'Lightning', r:'Avenger', s:'Destroyer', t:'Muffin', u:'Cookie', v:'Exterminator', w:'Assassin', x:'Marshmellow', y:'Laser', z:'Wierdo'};
 
 SuperheroArrayLastName2 = {a:'Falcon', b:'Viagra', c:'Moth', d:'Dentist', e:'Philanthropist', f:'Monk', g:'Baker', h:'Trash Man', i:'Sasquatch', j:'Designated Driver', k:'Norwegian', l:'Dangerfist', m:'Beast', n:'She Hulk', o:'Colossus', p:'Munchkin', q:'Vixen', r:'Emo Kid', s:'Avenger', t:'McAwesome', u:'Salesman', v:'Sasquatch', w:'Kitty Kat', x:'Bagpiper', y:'Kilt', z:'Smell'};
 

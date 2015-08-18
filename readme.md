@@ -23,6 +23,7 @@ More than one list.  Pig latin type naming...  Possibly anagram solver for names
  Who this product for? What problem does it attempt to solve?
      Who - For all ages, fun. Provides entertainment. Can be used a revenue generator through advertising or domain name sales.
   May also give ideas for a legitimate business name.
+<<<<<<< HEAD
 
 ###Interactivity
 - Interactivity is accomplished when user selects a list, enters their name, and receives an answer returned to them.
@@ -81,3 +82,5 @@ Email to your friends
     lastName = selectedKey[lastNameLetter];
     return lastName;
   }
+=======
+>>>>>>> 01a5a8e1b8d7e67559f111382c0c3cab132fd9d3

@@ -5,32 +5,32 @@
     <meta charset="utf-8">
     <title>Name Generator - By Ryan Christian Media</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Titillium+Web:400,700|Lobster' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="assets/favicon-96x96.png">
   </head>
-
+  <body>
     <header>
     <a href="index.html" class="logo">
-      <h1>Name Generator</h1>
-      <h2><img class='rcmLogo' src='assets/logos/RC_media_blk.png' alt="RC Media Logo" style="width:200px;height:27px"></h2>
+      <h1>Name Pony</h1>
+      <h2>Name Generator</h2>
       </a>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="businessName.html">Business name generator</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
     </header>
 
-<!-- key UzkS4xfw_K2mwozXLE5wGacsrNn1thi -->
-<!-- secret K2n1aDb3iMoo6HWf6MZa7v -->
-
     <div class='wrapper'>
-      <div class='nameEntry'>
-        <p>What kind of name <br>do you want to make?</p>
+    <div class='col-md-2'>
+    </div>
+      <div class='col-md-4 nameEntry'>
+        <h2>What kind of name <br>do you want to make?</h2>
         <form name = "nameDropDown">
-          <select id ="selectNameArray">
+          <select id="selectNameArray">
             <option value ="Pirate">Pirate Name</option>
             <option value ="Horse">Horse Name</option>
             <option value ="Superhero">Superhero Name</option>
@@ -40,30 +40,39 @@
           </select>
         </form><br>
 
+        <div class='easterIsland'></div>
         <!-- form for name input - get name from DOM -->
-        <form id="form">Type Your Name Here<br>
+        <form id="form"><h2>Type Your Name Here</h2>
           <input class="name" type="text" name="Select Name">
           <br><br>
           <input type="submit" class='btn-primary' value="Submit">
         </form>
         <h1 class='yourNewName'></h1>
       </div>
-      <div class="nameResults"></div>
+      <div class="col-md-4 nameResults"></div>
+      <div class='col-md-2'>
+      <button type="button" class="clearButton btn btn-default">Clear</button>
+      </div>
+
+      <img class='keepCalm' src="assets/img/keep-calm-change-name-txtonly.png" alt="Keep Calm and Change Your Name" class="profile-photo">
 
     <footer>
-        <a href="http://twitter.com/ryanciecalone"><img src="assets/logos/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="https://www.facebook.com/RyanChristianMedia?ref=hl"><img src="assets/logos/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-        <div
-          class="fb-like"
-          data-share="true"
-          data-width="450"
-          data-show-faces="true">
-        </div>
-      <p>&copy; 2015 Ryan Ciecalone</p>
+        <a href="http://twitter.com/ryanciecalone" target='_blank'><img src="assets/logos/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/RyanChristianMedia?ref=hl" target='_blank'><img src="assets/logos/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <img class='rcmLogo' src='assets/logos/RC_media_blk.png' alt="RC Media Logo" style="width:200px;height:27px">
+      <h5><a href='http://ryanchristianmedia.com' target='_blank'>&copy; 2015 Ryan Christian Media</a></h5>
     </footer>
 
 
 
+
+      <script language="javascript" type="text/javascript">
+      function popitup(url) {
+        newwindow=window.open(url,'http://chickenonaraft.com','height=600,width=600');
+        if (window.focus) {newwindow.focus()}
+        return false;
+      }
+      </script>
       <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
